@@ -1,0 +1,62 @@
+@font-face{
+	font-family: Azonix;
+	src: url('Azonix.otf');
+}
+@font-face{
+	font-family: Kenzo;
+	src: url('Kenzo Regular.otf');
+}
+@font-face{
+	font-family: Nova;
+	src: url('NOVABOLD.otf');
+}
+@font-face{
+	font-family: Bellovia;
+	src: url('Bellovia.ttf');
+}
+@font-face{
+	font-family: Dyno;
+	src: url('Dyno Regular.ttf');
+}
+
+
+body{
+    
+    font-family: Dyno !important;
+	background: url("fundo.png");
+	background-position: center;
+	-webkit-background-size: cover;
+	height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+.navbar-brand{
+	font-family: Nova !important;
+	font-size: 1.875em;
+}
+
+.container-fluid {
+    padding-left: 31%;
+    padding-right: 31%;
+    padding-top: 133px;
+}
+
+footer{
+	background-color: #0000007d!important;
+	padding: 20px !important;
+	
+	
+}
+nav{
+    /*background-color: #0e2754!important;*/
+	background-color:transparent;
+}
+
+form{
+	background: rgba(255,255,255,.3);
+	border-radius: 15px 50px;
+	padding: 34px;
+    margin: -41px;
+}
