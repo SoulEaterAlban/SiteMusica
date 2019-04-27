@@ -8,18 +8,19 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		
-		<link rel="stylesheet" type="text/css" href="style.css">  
-
+		<link rel="stylesheet" type="text/css" href="css/style.css">  
+		<title>Cadastro</title>
 	</head>
     
     
     
-	  <body>
+	  <body class="index-cadastro">
+	  
 			  <header>
 				<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-tranparent " >
 					
-				  <a class="navbar-brand" href="#">
-						<img src="icone-01.png" width="50" height="50" alt="">
+				  <a class="navbar-brand" href="#" id="logo-cadastro">
+						<img src="img/icone-01.png" width="50" height="50" alt="">
 				  </a>
 				  <a class="navbar-brand" href="#">AZONIX</a>
 					
@@ -46,11 +47,14 @@
 			  </header>
 		  
 		 
-		  <section>
+		  <section class="form-cadastro">
 			  <div class="container-fluid">
 			  
-		 <form class="text-white">
-				  <div class="form-group">
+		 <form class="text-white" id="cadastro">
+				<div class="cad-titulo">
+				<h1>Cadastre-se</h1>
+				</div>
+				<div class="form-group">
 					<label for="exampleInputEmail1">Usuário</label>
 					<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="text" placeholder="User123">
 				  </div>
@@ -62,13 +66,13 @@
 					<label for="exampleInputPassword1">Senha</label>
 					<input type="password" class="form-control" id="exampleInputPassword1" minlength="8" placeholder="********" required>
 				  </div>
-                  <div class="form-group">
-					<label for="exampleInputPassword1">Confirme sua Senha</label>
+				  <div class="form-group">
+					<label for="exampleInputPassword1">Confirme sua senha</label>
 					<input type="password" class="form-control" id="exampleInputPassword1" minlength="8" placeholder="********" required>
 				  </div>
 				  <div class="form-group form-check">
 					<input type="checkbox" class="form-check-input" id="exampleCheck1">
-					<label class="form-check-label" for="exampleCheck1">Desejo receber Notifcações</label>
+					<label class="form-check-label" for="exampleCheck1">Desejo receber notificações em meu email</label>
 				  </div>
 				  <button type="submit" class="btn btn-primary">Enviar</button>
 				</form>
@@ -85,7 +89,6 @@
 	  
 		<footer class="footer fixed-bottom 20px">
 		</footer>
-		
 		
 		</body>
 </html>
